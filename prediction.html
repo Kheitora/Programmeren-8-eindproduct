@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="app.js" type="module"></script>
+    <title>Decision Tree Inleveropdracht</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="information.html">Info</a></li>
+        <li><a class="active" href="prediction.html">Predict</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+      <div id="prediction"></div><br/>
+
+      <div id="form">
+  
+        <div class="allignment">
+            <label for="Age">What is your age?</label><br/>
+            <input type="text" id="Age" name="Age">
+        </div><br/>
+
+        <div class="allignment">
+            <label for="Sex">What is your biological sex?</label><br/>
+            <select id="Sex" name="Sex">
+                <option value="0">Male</option>
+                <option Value="1">Female</option>
+                </select>
+        </div><br/>
+
+        <div class="allignment">
+            <label for="Max">What is the maximum heartrate of your body?</label><br/>
+            <input type="text" id="Max" name="max">
+        </div><br/>
+
+        <div class="allignment">
+            <label for="Angina">Do you have chestpains when sporting?</label><br/>
+            <select id="Angina" name="Angina">
+                <option Value="0">No</option>
+                <option Value="1">Yes</option>
+                </select>
+        </div><br/>
+
+        <div class="allignment">
+            <label for="Depression">Do you have a history of ST Depression? if so, how much was the depression?</label><br/>
+            <select id="Depression" name="Depression">
+                <option Value="0">No</option>
+                <option Value="1">Yes, 1mm</option>
+                <option Value="2">Yes, 2mm</option>
+                <option Value="3">Yes, 3mm</option>
+                <option Value="4">Yes, 4mm</option>
+                </select>
+        </div><br/>
+
+        <div class="allignment">
+            <label for="Artery">Do you have any major vessels coloured with fluro?</label><br/>
+            <select id="Artery" name="Artery">
+                <option Value="0">Not that i know of</option>
+                <option Value="1">Yes, 1 major blood vessel</option>
+                <option Value="2">Yes, 2 major blood vessels</option>
+                <option Value="3">Yes, 3 major blood vessels</option>
+                </select>
+        </div><br/>
+
+        <div class="allignment">
+            <label for="Thallium">Have you ever had a Thallium test? if so, what was the result?</label><br/>
+            <select id="Thallium" name="Thallium">
+                <option Value="">No</option>
+                <option Value="3">Yes, it was more than 100µg/L</option>
+                <option Value="7">yes, it was more than 300µg/L</option>
+                <option Value="1">yes, it was normal</option>
+                </select>
+        </div><br/>
+        
+        <div class="allignment">
+        <button type="button" id="button" value="Calculate">Submit</button>
+        </div>
+        
+       
+    </div>
+
+</body>

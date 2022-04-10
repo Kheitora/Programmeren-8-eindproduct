@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, h4 {
+    margin-top: 0;
+}
+
+.center {
+    margin: auto;
+    width: 23%;
+}
+
+.text {
+    font-family:"Lucida Console", "Courier New", monospace;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.allignment {
+    margin-right: 200px;
+    margin-left: 700px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #184a45ff;
+    
+}
+  
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #fc766aff;
+}
+
+li:last-child {
+    border-right: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+#chart {
+    overflow: scroll;
+    padding:20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+table, tr, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+#view {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 15px;
+    margin: 10px;
+    border-style: solid none none none;
+    border-color: #184a45ff;
+}
+
+#accuracy {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 15px;
+    margin: 10px;
+    border-style: solid none none none;
+    border-color: #184a45ff;
+
+}
+
+#prediction {
+    padding: 15px;
+    margin: 10px;
+    font-size: 200%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-style: solid none none none;
+    border-color: #184a45ff;
+}
+
+#main {
+    padding: 15px;
+    margin: 10px;
+}
+
+#form {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 15px;
+    margin: 10px;
+    border-style: solid none solid none;
+    border-color: #184a45ff;
+}
+
+#scatterplot {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 15px;
+    margin: 10px;
+    border-style: solid none none none;
+    border-color: #184a45ff;
+}
+
+#border {
+    border-style: solid none none none;
+    border-color: #184a45ff;
+}
+
+#heartbeat {
+    background-image: url("UniformLawfulBoar-size_restricted.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+select {
+    width: 170px;
+    height:25px;
+}
