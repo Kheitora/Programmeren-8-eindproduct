@@ -86,9 +86,8 @@ td {
 #Thallium {
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 15px;
     width: 50%;
-    height: 40;
+    height: 35px;
     margin: 4px;
 
 }
@@ -96,9 +95,8 @@ td {
 #Artery {
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 15px;
     width: 50%;
-    height: 40;
+    height: 35px;
     margin: 4px;
 
 }
@@ -106,9 +104,8 @@ td {
 #Depression {
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 15px;
     width: 50%;
-    height: 40;
+    height: 35px;
     margin: 4px;
 
 }
@@ -116,18 +113,17 @@ td {
 #Angina {
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 15px;
     width: 50%;
-    height: 40;
+    height: 35px;
     margin: 4px;
 
 }
 
 #Max {
+    box-sizing: border-box;
     border-radius: 8px;
-    padding: 7px;
     width: 50%;
-    height: 40;
+    height: 35px;
     margin: 4px;
 
 }
@@ -135,18 +131,17 @@ td {
 #Sex {
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 15px;
     width: 50%;
-    height: 40;
+    height: 35px;
     margin: 4px;
-
 }
 
+
 #Age {
+    box-sizing: border-box;
     border-radius: 8px;
-    padding: 7px;
     width: 50%;
-    height: 40;
+    height: 35px;
     margin: 4px;
 
 }
@@ -165,7 +160,6 @@ td {
     margin: 10px;
     border-style: solid none none none;
     border-color: #184a45ff;
-
 }
 
 #prediction {
