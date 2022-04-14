@@ -10,8 +10,7 @@ h2, h3, h4 {
 }
 
 .center {
-    margin: auto;
-    width: 23%;
+    text-align: center;
 }
 
 .text {
@@ -20,9 +19,16 @@ h2, h3, h4 {
     margin-left: 200px;
 }
 
-.allignment {
+.title {
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 25px;
     margin-right: 200px;
-    margin-left: 700px;
+    margin-left: 200px;
+}
+
+.allignment {
+    text-align: center;
+    padding: 10px;
 }
 
 ul {
@@ -77,6 +83,74 @@ td {
     padding: 5px;
 }
 
+#Thallium {
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+    width: 50%;
+    height: 40;
+    margin: 4px;
+
+}
+
+#Artery {
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+    width: 50%;
+    height: 40;
+    margin: 4px;
+
+}
+
+#Depression {
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+    width: 50%;
+    height: 40;
+    margin: 4px;
+
+}
+
+#Angina {
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+    width: 50%;
+    height: 40;
+    margin: 4px;
+
+}
+
+#Max {
+    border-radius: 8px;
+    padding: 7px;
+    width: 50%;
+    height: 40;
+    margin: 4px;
+
+}
+
+#Sex {
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+    width: 50%;
+    height: 40;
+    margin: 4px;
+
+}
+
+#Age {
+    border-radius: 8px;
+    padding: 7px;
+    width: 50%;
+    height: 40;
+    margin: 4px;
+
+}
+
 #view {
     font-family: "Lucida Console", "Courier New", monospace;
     padding: 15px;
@@ -129,10 +203,26 @@ td {
     border-color: #184a45ff;
 }
 
+
+
+#button {
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    width: 10%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #184a45ff;
+    color: white;
+}
+
 #heartbeat {
     background-image: url("UniformLawfulBoar-size_restricted.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 select {
